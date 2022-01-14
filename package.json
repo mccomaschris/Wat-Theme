@@ -1,0 +1,32 @@
+{
+  "name": "wat-theme",
+  "version": "1.0.0",
+  "description": "A starter WordPress theme using TailwindCSS and AlpineJS.",
+  "author": "Christopher McComas",
+  "license": "MIT",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "homepage": "https://www.wat-theme.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mccomaschris/wat-theme.git"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "cssnano": "^5.0.15",
+    "laravel-mix": "^6.0.6",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.13"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  }
+}
