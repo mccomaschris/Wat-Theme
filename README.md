@@ -2,6 +2,8 @@ WAT Theme
 ===
 WAT Theme is a barebones [WordPress](https://www.wordpress.org) starter theme utilizing [TailwindCSS](https://www.tailwindcss.com) and [Alpine.js](https://alpinejs.dev/).
 
+The theme does not come with any default styling allowing you to easily design your own custom theme.
+
 ## Installation Instructions
 1. Clone the repo `git clone git@github.com:mccomaschris/wat-theme.git my-plugin-name`.
 2. Search and replace the entire plugins for all instances of `WAT_THEME_VERSION` with `PLUGIN_NAME_VERSION`.
